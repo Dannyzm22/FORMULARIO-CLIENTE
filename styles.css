@@ -1,0 +1,64 @@
+/* Estilo general del cuerpo */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9f0f5; /* Fondo gris claro */
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+/* Contenedor principal */
+.contenedor {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  color: #2a5d9f; /* Azul oscuro */
+  margin-bottom: 20px;
+}
+
+/* Etiquetas del formulario */
+form label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Campos de entrada */
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Botón */
+button {
+  padding: 12px 20px;
+  background-color: #2a5d9f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Efecto al pasar el cursor */
+button:hover {
+  background-color: #1f4678;
+}
