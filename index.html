@@ -1,50 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Define el conjunto de caracteres como UTF-8 para soportar caracteres especiales -->
   <meta charset="UTF-8">
-  
-  <!-- Configura la vista para que se adapte a dispositivos móviles -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Título que aparecerá en la pestaña del navegador -->
   <title>Formulario de Cliente</title>
-  
-  <!-- Enlaza el archivo de estilos CSS externo -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Contenedor principal que centra y estiliza el formulario -->
   <div class="contenedor">
-    <!-- Título del formulario -->
     <h1>Registro de Cliente</h1>
-    
-    <!-- Inicio del formulario -->
     <form>
-      <!-- Campo para el nombre completo -->
       <label for="nombre">Nombre Completo:</label>
       <input type="text" id="nombre" name="nombre" required>
 
-      <!-- Campo para la cédula -->
       <label for="cedula">Cédula:</label>
       <input type="text" id="cedula" name="cedula" required>
 
-      <!-- Campo para el correo electrónico -->
       <label for="correo">Correo Electrónico:</label>
       <input type="email" id="correo" name="correo" required>
 
-      <!-- Campo para el teléfono -->
       <label for="telefono">Teléfono:</label>
       <input type="tel" id="telefono" name="telefono" required>
 
-      <!-- Campo para la dirección -->
       <label for="direccion">Dirección:</label>
       <input type="text" id="direccion" name="direccion" required>
 
-      <!-- Botón para enviar el formulario -->
       <button type="submit">Guardar Datos</button>
     </form>
-    <!-- Fin del formulario -->
   </div>
 </body>
 </html>
